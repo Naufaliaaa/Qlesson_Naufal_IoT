@@ -1,0 +1,61 @@
+body {
+    background-color: #f2ebe3
+}
+
+@media only screen and (max-width: 600px) {
+    .card-right{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .card-right{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card-right{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card-right{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card-right{
+        width: 60%;
+    }
+}
+
+.title{
+    font-family: "Montserrat";
+    letter-spacing: 0.1em;
+    color: #6c7289;
+    font-size: 16px;
+}
+
+.sub-title{
+    font-family: "Fraunces";
+    font-size: 38px;
+    color: #1c232b;
+}
+
+.description{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #6c7289;
+}
+
+.price{
+    font-family: "Fraunces";
+    color: #3c8067;
+}
+
+.btn{
+    background-color: #3c8067;
+}
